@@ -1,0 +1,13 @@
+{
+    "contract_id": "bodhi.rollback.v1",
+    "identity": "100048777766367/rollback",
+    "genesis_root": "100048777766367/contract",
+    "archetype": "FLEET_HOMEOSTASIS",
+    "role": "EMERGENCY_CIRCUIT_BREAKER",
+    "network_partners": {
+        "monitor": "100048777766367/monitor",
+        "quarantine": "100048777766367/quarantine",
+        "release": "100048777766367/release"
+    },
+    "io_specification": "I/O (EMERGENCY_CIRCUIT_BREAKER)"
+}
